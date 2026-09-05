@@ -13,7 +13,9 @@ For this, I obviously needed a switch or button inside the cabin to turn the lig
 
 **The Problem:** To pull that off, I would have had to run new wires through the car, which meant drilling a hole into the plastic housing of an existing factory control unit. I chose against that to preserve the OEM part.
 
-**The New Plan:** Instead of drilling into the existing control unit, I decided to build a secondary control unit. It will sit inside the existing control unit, tapping directly into its power supply and CAN bus lines. That way I can preserve the clean OEM look of the center stack and achieve a seamless integration.
+**The Revised Plan:** I then considered building a custom secondary control unit to sit inside the factory unit and tap directly into power and CAN bus lines to keep the clean OEM look. However, this approach was overly complex for the scope of the project.
+
+**The Final Plan:** Instead of custom switches, I decided to install a readily available OEM Volvo button, such as a BLIS (Blind Spot Information System) switch, into an unused slot in the center stack. Pressing this factory button sends a distinct CAN bus message across the vehicle network, which I can capture with a microcontroller to toggle the auxiliary lights. This achieves the completely seamless OEM look using genuine Volvo hardware.
 
 ---
 
