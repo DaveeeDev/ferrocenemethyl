@@ -1,4 +1,4 @@
-# Volvo V70 Custom CAN Bus Control Unit
+# Project Ferrocenemethyl: Volvo V70 Custom CAN Bus Control Unit
 This is my first embedded systems project. The goal here is to build a custom CAN Bus control unit that fits perfectly behind one of the blank switch covers in my Volvo V70.
 It's an open-ended learning playground where I'm figuring out hardware, software, and automotive networking from scratch, since university courses rarely cover embedded systems in depth.
 
@@ -32,7 +32,7 @@ Since this is my gateway into the world of embedded engineering, I'm using it to
 
 ## Current Status & Hardware
 
-Right now, the project is in the early electronic prototyping stage. For this I soldered up a prototype, in order to sniff the car's CAN Bus.
+Right now, the project is in the early electronic prototyping stage. For this I soldered up a prototype (Ferrocene), in order to sniff the car's CAN Bus.
 Sadly there is not photo of the first prototype, which uzilized a different CAN Transceiver (SN65HVD230) and a slightly different layout. I ended up throwing it out in favor of size and thermal advantages.
 Additionally the first prototype was not receiving any message frames from the car's CAN Bus. I switched to a newer, higher-quality CAN Transceiver (TJA1042), though unfortunately, that hasn't fully resolved the issue yet.
 
@@ -45,7 +45,7 @@ The current control unit consist of a ESP32-C3 as the brain, a TJA1042 CAN Trans
 ### Prototypes & Shells
 
 <!-- TODO: Add photos -->
-**Electronic Prototype 2:**
+**Electronic Prototype 2 (Ferrocene):**
 Switched transceiver board and optimized layout
 <img src="photos/electronic_prototype_2.jpg" width="700"/>
 
@@ -59,7 +59,7 @@ Updated version with two additional holes for wire exits (didn't fit perfectly, 
 
 ---
 
-## Codebase
+## Codebase (Methane)
 
 Since I'm focusing heavily on the hardware right now, the software is super barebones. Currently, it only consists of basic test clients:
 * **Sender Client:** A tiny script/program that pumps out dummy CAN messages for debugging.
