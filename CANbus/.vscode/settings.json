@@ -1,11 +1,17 @@
 {
-    "idf.currentSetup": "F:\\Programme\\ESP\\.espressif\\v5.5.3\\esp-idf",
-    "idf.openOcdConfigs": [
-        "board/esp32c3-builtin.cfg"
-    ],
-    "idf.customExtraVars": {
-        "IDF_TARGET": "esp32c3"
-    },
-    "idf.flashType": "UART",
-    "idf.portWin": "COM3"
+  "idf.currentSetup": "F:\\Programme\\ESP\\.espressif\\v5.5.3\\esp-idf",
+  "idf.openOcdConfigs": [
+    "board/esp32c3-builtin.cfg"
+  ],
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32c3"
+  },
+  "idf.flashType": "UART",
+  "clangd.path": "C:\\Espressif\\tools\\esp-clang\\esp-19.1.2_20250312\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=c:\\Users\\David.DESKTOP-23QVBVH\\Downloads\\Coden\\lightControlUnit\\CANbus\\build"
+  ],
+  "idf.port": "COM3"
 }

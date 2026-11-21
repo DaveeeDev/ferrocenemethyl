@@ -1,2 +1,9 @@
-idf_component_register(SRCS "main.c"
-                    INCLUDE_DIRS ".")
+idf_component_register(
+    SRCS
+        "src/main.cpp"
+        "src/CanEngine.cpp"
+        "src/SerialLogger.cpp"
+    INCLUDE_DIRS
+        "include"
+        "include/platforms"
+)
