@@ -11,7 +11,6 @@ extern "C" void app_main(void) {
         std::printf("Starting CAN sniffer in %d...\n", i);
         vTaskDelay(pdMS_TO_TICKS(1000));
     }
-    std::printf("Started CAN sniffer!\n");
 
     static BoardConfig::FrameConsumer consumer;
     static CanEngine canEngine(consumer);

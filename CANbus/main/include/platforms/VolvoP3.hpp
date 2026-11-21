@@ -1,10 +1,8 @@
 #pragma once
 #include "CanTypes.hpp"
 
-// ============================================================================
 // PLATFORM CONFIGURATION: Volvo P3 (V70 / XC70 / S80 / XC60)
 // Pure constexpr data in Flash. Edit ONLY this file to adapt to another car.
-// ============================================================================
 namespace PlatformConfig {
     inline constexpr const char* kName    = "Volvo P3";
     inline constexpr bool        k125Kbps = true;  // true = 125 kbps MS-CAN (Pins 3 & 11)

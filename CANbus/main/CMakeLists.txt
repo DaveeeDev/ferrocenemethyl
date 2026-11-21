@@ -3,6 +3,9 @@ idf_component_register(
         "src/main.cpp"
         "src/CanEngine.cpp"
         "src/SerialLogger.cpp"
+        "src/RelayDriver.cpp"
+        "src/EcuStateMachine.cpp"
+        "src/SignalTriggerConsumer.cpp"
     INCLUDE_DIRS
         "include"
         "include/platforms"
